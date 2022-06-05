@@ -14,5 +14,5 @@
 		'poderes'=>$_REQUEST['poderes']
 	);
 	file_put_contents($filename, json_encode($json_arr));
-	header("Location:http://localhost/json/viernes.html")
+	header("Location:http://localhost/json/")
 ?>
